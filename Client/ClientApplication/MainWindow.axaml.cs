@@ -4,7 +4,7 @@ using System.Net.Http;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 
-namespace Mapster.ClientApplication;
+namespace Mapster.ClientApplication { 
 
 public partial class MainWindow : Window
 {
@@ -48,4 +48,5 @@ public partial class MainWindow : Window
         public int tileCount { get; set; }
         public byte[][]? imageData { get; set; }
     }
+}
 }

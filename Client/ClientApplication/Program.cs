@@ -3,7 +3,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 
-namespace Mapster.ClientApplication;
+namespace Mapster.ClientApplication { 
 
 class Program
 {
@@ -19,4 +19,4 @@ class Program
         => AppBuilder.Configure<App>()
             .UsePlatformDetect()
             .LogToTrace();
-}
+} }
